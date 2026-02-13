@@ -1,0 +1,21 @@
+<div class="counter-container">
+
+    <div class="counter-card">
+
+        <h2 class="counter-title">Counter App</h2>
+
+        <div class="counter-value-holder">
+            <h1 class="counter-value">{{counterValue()}}</h1>
+        </div>
+        <div class="counter-text-holder">
+            <span class="counter-text">{{counterText()}}</span>
+        </div>
+        <div class="counter-btn-holder">
+            <button class="counter-decrement" (click)="counterDecrement()">-</button>
+            <button class="counter-reset" (click)="counterReset()">Reset</button>
+            <button class="counter-increment" (click)="counterIncrement()">+</button>
+        </div>
+
+    </div>
+
+</div>

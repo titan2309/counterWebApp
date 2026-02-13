@@ -1,0 +1,50 @@
+@reference "tailwindcss";
+
+@layer components {
+
+    .counter-container {
+        @apply min-h-screen flex items-center justify-center bg-gray-700
+    }
+
+    .counter-title {
+        @apply text-3xl text-green-500 text-center font-bold
+    }
+
+    .counter-card {
+        @apply w-full max-w-md bg-gray-800 rounded-lg p-8 shadow-xl
+    }
+
+    .counter-value-holder {
+        @apply py-5 text-center
+    }
+
+    .counter-value {
+        @apply text-gray-200 text-5xl
+    }
+
+    .counter-text-holder {
+        @apply text-center
+    }
+
+    .counter-text {
+        @apply text-red-400 mt-2
+    }
+
+    .counter-btn-holder {
+        @apply text-center m-3
+    }
+
+    .counter-decrement {
+        @apply text-2xl px-4.5 py-1.5 bg-green-700 hover:bg-green-600 transition text-gray-200 rounded-lg m-2 cursor-pointer
+    }
+
+    .counter-reset {
+        @apply text-2xl text-gray-800 px-4 py-1.5 bg-gray-300 hover:bg-gray-500 hover:text-gray-200 transition rounded-lg m-2 cursor-pointer
+    }
+
+    .counter-increment {
+        @apply text-2xl px-4 py-1.5 bg-green-700 hover:bg-green-600 transition text-gray-200 rounded-lg m-2 cursor-pointer
+    }
+
+
+}
